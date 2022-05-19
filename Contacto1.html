@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="shortcut icon" href="./contenido multimedia/Logo DFG 2.jpg" type="logo sitio">
+    <link rel="stylesheet" href="./estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@700;900&family=Indie+Flower&family=Staatliches&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="./Contacto1.js/Contacto1.js ">ValidaciondeFormulario</script>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Digital Fitness Group</h1>
+        <img class="fotoLogo"  src="./contenido multimedia/DFG3.jpg" alt="Logo">
+        <nav>
+             <div>
+                <ul> 
+
+                    <li><a class= "btn1" href="./index.html"> Home</a></li>
+                    <li><a class= "btn2" href="./Servicios.html">Servicios</a></li>               
+                    <li><a class= "btn1" href="./Nosotros.html">Nosotros</a></li>
+                    <li><a class= "btn2" href="./Portfolio.html">Portfolio</a></li>
+                    <li><a class= "btn1" href="./Contacto1.html">Contacto</a></li>
+    
+                </ul> 
+    
+            </div>
+    
+        </nav>
+    </header>
+<hr>
+
+    <main>
+    
+        <form action="#" method="GET" enctype="multipart/form-data">
+    
+            <article class="practicaFlexbox3">
+               
+                   <legend>
+                       Datos del usuario
+                   </legend>
+               
+                
+                   <div>
+                        <label for="userData">Nombre y Apellido</label>                             
+                  
+                         <input type="text" name="userData" id="userData" placeholder="Su nombre" required>
+               
+                   </div>
+   
+ <br>
+                <div>
+                    <label for="userMail">Correo</label>
+               
+                   <input type="email" name="userMail" id="userMail" placeholder="Deje su correo" required>
+   
+               </div>
+ <br>
+   
+                <div>
+                    <label for="comments">Comentario</label>
+               <
+                   <textarea name="comments" id="comments" cols="30" rows="10" placeholder="Escriba su requerimiento "></textarea>
+   
+               </div>
+   
+                               
+               
+                <div>
+   
+               
+                   <p>Genero</p>           
+                         <label for="Genero">Hombre</label>
+                         <input type="radio" name="Genero" value="Masculino">
+                         <label for="Genero">Mujer</label>
+                         <input type="radio" name="Genero" value="Femenino">
+   
+                               
+                             
+                  </div>
+   <br>
+                   <div>
+                       <label for="Acepto">Acepta terminos</label>
+                        <input type="checkbox" name="Acepto" value="1">
+   
+                   </div>
+                    <div>
+   
+                        <legend>Tipo de Servicios</legend>
+                        <select name="Servicios" id="" required>
+                        <option value="disabled select"> Elija su producto</option>
+                        <option value="FV">Fitness Videos</option>
+                        <option value="PT">Personal Trainer</option>
+                        <option value="CM">Community Management</option>
+                        </select>
+
+                  </div>    
+                  
+                  <br>
+    
+                   <div>
+                         <input type="submit" onclick = "enviarFormulario()" value="Enviar">
+                         <input type="reset" value="Borrar todo">
+                         
+   
+                    </div>
+   
+   
+   
+                </article>
+   
+                       
+            
+         
+       </form>   
+
+<div id="error"></div>
+
+<article class="practicaFlexbox1">
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.5858702356472!2d-58.44159768519668!3d-34.5640394629058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5b7f77aa3cf%3A0x5e3182772438888d!2sAv.%20Federico%20Lacroze%201755%2C%20C1426CPC%20CABA!5e0!3m2!1ses-419!2sar!4v1625410382035!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</article>
+
+
+</main>
+<hr>
+
+<footer>
+    <nav>
+        <div>
+           <ul>
+               
+            <li><a class= "btn1" href="./index.html"> Home</a></li>
+            <li><a class= "btn2" href="./Servicios.html">Servicios</a></li>               
+            <li><a class= "btn1" href="./Nosotros.html">Nosotros</a></li>
+            <li><a class= "btn2" href="./Portfolio.html">Portfolio</a></li>
+            <li><a class= "btn1" href="./Contacto1.html">Contacto</a></li>
+            <i class='bx bxl-facebook-square bx-lg' style='color:#f5ecec'></i>            
+            <i class='bx bxl-instagram bx-flashing bx-lg' style='color:#f5ecec'  ></i>
+            <i class='bx bxl-twitter bx-lg' style='color:#f5ecec'></i>
+            <i class='bx bxl-tiktok bx-flashing bx-lg' style='color:#f5ecec' ></i>
+           </ul> 
+    
+        </div>
+
+    </nav>           
+</footer>
+
+</body>
+
+
+</html>

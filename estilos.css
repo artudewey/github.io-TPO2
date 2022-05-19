@@ -1,0 +1,304 @@
+     * {  
+         margin: 0;
+         padding: 0;
+         box-sizing: border-box;
+         
+}
+
+
+
+/*Estilos Generales*/
+
+h1 {
+    color: darkviolet;
+    font-size: 50px;
+    background-color: yellow;
+    font-family: 'Encode Sans SC', sans-serif;
+}
+
+h6  {
+    color: white;
+    font-size: 14px;
+    background-color: rgb(8, 8, 8);
+    font-family: 'Encode Sans SC', sans-serif;
+
+}
+
+main {
+    background-color: rgb(8, 8, 8);
+    
+}
+
+table {
+    border: 3px solid;
+}
+
+
+th {
+    background-color: darkorange;
+    border: 1px solid;
+}
+
+
+tr, td {
+    background-color: firebrick;
+    border: 1px solid;
+}
+
+
+p {
+    color:forestgreen;
+    
+}
+
+i {
+    
+    
+    padding: 10px;
+
+}
+
+
+label {
+     
+     color:lawngreen
+ }
+
+    
+legend {    
+        color:lightseagreen    
+ }
+
+
+img {
+       width: 350px;
+       height: 350px;
+}
+
+
+video {
+    width: 400px;
+    height: 400px;
+}
+
+
+audio {
+    width: 100px;
+    height: 100px;
+}
+
+a {
+text-decoration: none;
+background-color: rgb(218, 22, 22);
+
+
+}
+
+header {
+
+    background-image: url(https://images.pexels.com/photos/841131/pexels-photo-841131.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid;
+    height: 200px;
+       
+
+}
+
+
+
+footer{
+
+    background-image: url(https://images.pexels.com/photos/841131/pexels-photo-841131.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid;
+    height: 6rem;
+
+
+}
+
+
+ul{
+
+    list-style-type: none;
+
+}
+
+
+
+li a {
+       display: inline-block;
+
+}
+
+header nav ul {
+
+    list-style: none;
+    position:absolute;
+    right: 0px;
+    top: 0.5rem;
+
+}
+
+
+nav ul li {
+           display: inline-block
+
+}
+
+
+/*Estilos Especificos*/
+
+
+.main1 {
+
+    background-color: black;
+    height: 310px;
+}
+.fuente130px {
+        
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        color: rgb(233, 239, 242);
+    }
+
+.espacioPalabra {
+         
+         word-spacing: 30px;
+
+}
+
+.parrafoHome {
+         font-style: italic;
+         font-weight: bold;
+         font-size: 20px;
+         text-align: center;
+         color: rgb(27, 25, 25);
+         background-color: chocolate;
+
+}
+
+.btn1{
+
+    background-color: green;
+    padding: 10px 5px;
+    border: 2px solid yellow;
+    margin: 5px 3px;
+    display: inline-block;
+}
+
+.btn2{
+
+    background-color: teal;
+    padding: 10px 5px;
+    border: 2px solid yellow;
+    margin: 5px 3px;
+    display: inline-block;
+
+}
+
+.fotoLogo {
+
+    height: 100px;
+    height: 135px;
+
+
+    
+}
+
+
+.practicaLoca {
+
+
+        width: 1348px;
+        height: 350px;
+}
+    
+.practicaFlexbox1 {
+    display: flex;
+    background-color: rgb(14, 13, 13); 
+    margin: 30px 15px; 
+    padding: 20px;
+    flex: 1 0 250px; 
+    background-color: rgb(20, 20, 19); 
+    flex-direction: row; 
+    padding: 2rem; 
+    justify-content:center; 
+    text-align: left; 
+  }
+  
+
+  .practicaFlexbox2 {
+    display: flex;
+    background-color: rgb(14, 13, 13); 
+    margin: 30px 15px; 
+    padding: 20px;
+    flex: 1 0 250px; 
+    background-color: rgb(20, 20, 19);  
+    flex-direction: row; 
+    padding: 1rem; 
+    justify-content:space-evenly; 
+    text-align: left; 
+  }
+  
+  .practicaFlexbox3 {
+    display: flex; 
+    background-color: rgb(14, 13, 13); 
+    margin: 30px 15px; 
+    padding: 20px;
+    flex: 1 0 250px; 
+    background-color: rgb(20, 20, 19); 
+    flex-direction: column; 
+    padding: 1rem; 
+    justify-content:space-evenly; 
+    text-align: left; 
+  }
+
+  @media (max-width:800px) {
+   .navigation {
+       justify-content: space-around;
+   }
+
+   h1 {
+       font-size: 2em;
+          }
+
+   img {
+       flex-direction: column;
+   }
+  }
+  
+
+  @media (max-width:600px) {
+    .navigation {
+        flex-flow: column wrap;
+        padding: 0;
+    }
+ 
+    h1 {
+        font-size: 1.5em;
+           }
+ 
+    img {
+        flex-direction: column;
+    }
+   }
+
+   @media (max-width:400px) {
+    .header {
+        background-color: brown;
+        padding: 0;
+    }
+ 
+    h1 {
+        font-size: 1em;
+        font-weight: bolder;
+           }
+ 
+    img {
+        flex-direction: column-reverse;
+    }
+   }
